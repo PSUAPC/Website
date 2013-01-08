@@ -1,0 +1,295 @@
+@font-face
+{
+	font-family: serv;
+	src: url('Sansation_Light.ttf'),
+		url('Sansation_Light.eot'); /* IE9+ */
+}
+
+.btncls
+{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
+    height: 60px;  
+    width: 166px;
+	/*color: #aaaaaa;	
+	/*font-family:"Impact", Times, serif;*/
+	font-family: serv;
+}
+.container
+{
+	position:relative;
+	top: 90px;
+	left: 100px;
+	width: 800px;
+	height: 600px;
+}
+.navContainer
+{
+	
+	top: 0px;
+	width: 160px;
+	position:relative;
+	text-align: left;
+}
+.footerContainer
+{
+	height: 10px;
+}
+.btntxt
+{
+	font-size: 32px;
+	font-weight: 900;
+	position:relative;
+	top: 11px;
+	left: 20px;
+}
+.heading
+{
+	color: #32a7bd;
+	position: relative;
+	left: 70px;
+}
+.footText
+{
+	cursor: pointer;
+	width: 200px;
+	text-align: center;
+	color: #515151;
+	font-size: 30px;
+	font-weight: 900;
+	position: relative;
+	float: left;
+	left: 200px;
+}
+.mainContainer
+{
+	background-image:url(Assets/test-supernova.jpg); 
+	background-position:top; 
+	background-attachment:scroll; 
+	background-repeat:no-repeat;
+}
+.contentOuter
+{
+	border: 1px solid transparent;
+	text-align: center;
+	width: 0px;
+	height: 0px;
+	margin: 0px;
+	position: relative;
+	left: 0px;
+	padding: 0px;
+	background-image: url(Assets/OuterRim.png); 
+}
+.navBtnOver
+{
+	background-image:url(Assets/SideBarButton_Flip_over.png); 
+	background-position:top; 
+	background-attachment:scroll;
+	color: #91d7e4;
+}
+
+.navBtnOut
+{
+	background-image:url(Assets/SideBarButton_Flip.png); 
+	background-position:top; 
+	background-attachment:scroll;
+	color: #e7e7e7;
+}
+
+.navBtnSelectOut
+{
+	background-image:url(Assets/SideBarButton_Flip_Select.png); 
+	background-position:top; 
+	background-attachment:scroll;
+	color: #e7e7e7;
+}
+
+.navBtnSelectOver
+{
+	background-image:url(Assets/SideBarButton_Flip_Select_over.png); 
+	background-position:top; 
+	background-attachment:scroll;
+	color: #91d7e4;
+}
+
+.test1
+{
+	height: 768px;
+	width: 1024px;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.containerPic
+{
+	background-image:url(Assets/BackDrop1.png);
+}
+
+.test2
+{
+	height: 768px;
+	width: 160px;
+	float: right;
+	margin-left: auto;
+	background-image:url(Assets/BackDrop1.png);
+	background-position:right;
+}
+.test3
+{
+	height: 768px;
+	width: 140px;
+	float: right;
+	background-image:url(Assets/BackDrop1.png);
+	background-position:left;
+	
+}
+.outertest
+{
+	/*height: 780px;
+	width: 1024px;*/
+}
+.contentFont
+{
+	color: #e7e7e7;
+	font-size: 30px;
+}
+.contentClass
+{
+	/*background-color: #aaaaaa;*/
+	position: relative;
+	width: 560px;
+	height: 450px;
+	top: 10px;
+	left: 60px;
+}
+.subpageOut
+{
+	position: relative;
+	height: 0px;
+	width: 166px;
+}
+
+.subpageOver
+{
+	position: relative;
+	height: 160px;
+	width: 166px;
+}
+.subtext
+{
+	background-image: url(Assets/SubpageBack.png);
+	color: #e7e7e7;
+	font-size: 20px;
+	font-family: serv;
+	cursor: pointer;
+	font-weight: 900;
+	background-repeat:no-repeat;
+	/*float: top;*/
+	height: 30px;
+	position: relative;
+}
+.subtextOver
+{
+	position: relative;
+	background-image: url(Assets/SubpageBack.png);
+	color: #91d7e4;
+	font-size: 20px;
+	font-family: serv;
+	cursor: pointer;
+	font-weight: 900;
+	background-repeat:no-repeat;
+	/*float: top;*/
+	height: 30px;
+}
+/* loading classes */
+.blurry 
+{
+  background: rgba(84, 84, 84, 0.6);
+}
+/* CSS classes for the home page */
+.hdingHome{ font-size: 36px; font-weight: 900; color: #e7e7e7;} 
+.hdingUpdates{ font-size: 30px; font-weight: 900; color: #e7e7e7;text-decoration:underline;} 
+.updateBox{text-align: center;}
+.hmintxt {color:#333333; font-family:Arial, Helvetica, sans-serif; font-size:20px; text-align: center}
+
+/* CSS classes for the imagereel pages*/
+.pageHead{font-size: 30px; font-weight: 900; color: #e7e7e7; float: top; position: relative; top:-10px}
+
+/* CSS classes for about us page */
+.auhdtxt {color:#ffffff; font-size:24px; font-family:Arial, Helvetica, sans-serif; text-decoration: underline; text-align: center;}
+.intxt {color:#ffffff; font-size:20px; font-family: Arial, Helvetica, sans-serif; text-align: center; }
+	
+/* CSS classes for the content scollbar */
+#scrollbar1 { width: 560px; clear: both; margin: 20px 0 10px; }
+#scrollbar1 .viewport { width: 540px; height: 300px; overflow: hidden; position: relative; text-align: center;}
+#scrollbar1 .overview { list-style: none; position: relative; top: 0; text-align: center; }
+#scrollbar1 .thumb .end,
+#scrollbar1 .thumb { /*background-color: #003D5D;*/ background: transparent url(Assets/Scroll.png) no-repeat -13px 100%; /*thumb*/}
+#scrollbar1 .scrollbar { position: relative; float: right; width: 15px; background: transparent url(Assets/Scroll.png) no-repeat 0px 100%; /*track*/}
+#scrollbar1 .track { /*background-color: #D8EEFD;*/ height: 100%; width:13px; position: relative; padding: 0 1px; background: transparent url(Assets/Scroll.png) 0px 100%; /*trackend*/}
+#scrollbar1 .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#scrollbar1 .thumb .end { overflow: hidden; height: 5px; width: 13px; background: transparent url(Assets/Scroll.png) no-repeat -13px 0px; /*thumbend*/}
+#scrollbar1 .disable{ display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+/* CSS classes for the subpage scrollbar */
+#subscroll { width: 160px; clear: both; margin: 20px 0 10px; }
+#subscroll .viewport { width: 140px; height: 160px; overflow: hidden; position: relative; text-align: center;}
+#subscroll .overview { list-style: none; position: relative; top: 0; text-align: center; }
+#subscroll .thumb .end,
+#subscroll .thumb { /*background-color: #003D5D;*/ background: transparent url(Assets/Scroll.png) no-repeat -13px 100%; /*thumb*/ }
+#subscroll .scrollbar {position: relative; float: right; width: 15px; background: transparent url(Assets/Scroll.png) no-repeat 0px 100%; /*track*/ }
+#subscroll .track { /*background-color: #D8EEFD;*/ height: 100%; width:13px; position: relative; padding: 0 1px; background: transparent url(Assets/Scroll.png) 0px 100%; /*trackend*/}
+#subscroll .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#subscroll .thumb .end { overflow: hidden; height: 5px; width: 13px; background: transparent url(Assets/Scroll.png) no-repeat -13px 0px; /*thumbend*/ }
+#subscroll .disable{ display: none; }
+
+/* CSS classes for the imagereel info scrollbar */
+#scrollbarInfo { width: 560px; clear: both; margin: 20px 0 10px; float: top; position:relative; top:-40px; }
+#scrollbarInfo .viewport { width: 540px; height: 80px; overflow: hidden; position: relative; text-align: center;}
+#scrollbarInfo .overview { list-style: none; position: relative; top: 0; text-align: center; }
+#scrollbarInfo .thumb .end,
+#scrollbarInfo .thumb { /*background-color: #003D5D;*/ background: transparent url(Assets/Scroll.png) no-repeat -13px 100%; /*thumb*/ }
+#scrollbarInfo .scrollbar {position: relative; float: right; width: 15px; background: transparent url(Assets/Scroll.png) no-repeat 0px 100%; /*track*/ }
+#scrollbarInfo .track { /*background-color: #D8EEFD;*/ height: 100%; width:13px; position: relative; padding: 0 1px; background: transparent url(Assets/Scroll.png) 0px 100%; /*trackend*/}
+#scrollbarInfo .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#scrollbarInfo .thumb .end { overflow: hidden; height: 5px; width: 13px; background: transparent url(Assets/Scroll.png) no-repeat -13px 0px; /*thumbend*/ }
+#scrollbarInfo .disable{ display: none; }
+
+/* CSS classes for the imagereel filmstrip scrollbar */
+#scrollbarFilm { width: 145px; clear: both; margin: 0px 0 0px; float: top; position:relative; }
+#scrollbarFilm .viewport { width: 125px; height: 285px; overflow: hidden; position: relative; text-align: center;}
+#scrollbarFilm .overview { list-style: none; position: relative; top: 0; text-align: center; }
+#scrollbarFilm .thumb .end,
+#scrollbarFilm .thumb { /*background-color: #003D5D;*/ background: transparent url(Assets/Scroll.png) no-repeat -13px 100%; /*thumb*/ }
+#scrollbarFilm .scrollbar {position: relative; float: right; width: 15px; background: transparent url(Assets/Scroll.png) no-repeat 0px 100%; /*track*/ }
+#scrollbarFilm .track { /*background-color: #D8EEFD;*/ height: 100%; width:13px; position: relative; padding: 0 1px; background: transparent url(Assets/Scroll.png) 0px 100%; /*trackend*/ }
+#scrollbarFilm .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#scrollbarFilm .thumb .end { overflow: hidden; height: 5px; width: 13px; background: transparent url(Assets/Scroll.png) no-repeat -13px 0px; /*thumbend*/ }
+#scrollbarFilm .disable{ display: none; }
+
+/* CSS classes for the about us scollbar */
+#aboutScroll { width: 560px; clear: both; margin: 20px 0 10px; }
+#aboutScroll .viewport { width: 540px; height: 450px; overflow: hidden; position: relative; text-align: center;}
+#aboutScroll .overview { list-style: none; position: relative; top: 0; text-align: center; }
+#aboutScroll .thumb .end,
+#aboutScroll .thumb { /*background-color: #003D5D;*/ background: transparent url(Assets/Scroll.png) no-repeat -13px 100%; /*thumb*/ }
+#aboutScroll .scrollbar { position: relative; float: right; width: 15px; background: transparent url(Assets/Scroll.png) no-repeat 0px 100%; /*track*/ }
+#aboutScroll .track { /*background-color: #D8EEFD;*/ height: 100%; width:13px; position: relative; padding: 0 1px; background: transparent url(Assets/Scroll.png) 0px 100%; /*trackend*/ }
+#aboutScroll .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#aboutScroll .thumb .end { overflow: hidden; height: 5px; width: 13px; background: transparent url(Assets/Scroll.png) no-repeat -13px 0px; /*thumbend*/ }
+#aboutScroll .disable{ display: none; }
+
+/*CSS classes for the imagereel */
+#imageTable{background: rgba(84, 84, 84, 0.6);  padding: 5px; float: top; position:relative; top:-30px;}
+#imageTable .viewportP {padding: 5px; background-color: #FFFFFF; width: 300px; height: 275px;}
+#imageTable .filmstrip {overflow:auto; margin: 0 auto; width:150px; height:275px;}
+#imageTable .menuDiv{width: 240px; height: 50px; position: absolute; left: 70px; top: -50px; text-align: center;}
+#imageTable .captionBox{text-align: left; width:260px; height:100px;  background-color: #555555; opacity:0.4; color: #FFFFFF;padding: 10px;}
+#imageTable .exteriorDiv{width: 280px; height: 0px; position: absolute; left: 16px; top: -270px; text-align: center;}
