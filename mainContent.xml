@@ -15,129 +15,53 @@
 		<script type="text/javascript"> LoadDataUD("Updates.XML");</script>
 		<script type="text/javascript"> $(document).ready(function(){$('#scrollbar1').tinyscrollbar();});</script>
 	</page>
-	<page name="Models" title="EntropyDrivenStudios | 3D Models" heading="3D Models">
-		<p class="pageHead">3-D models here </p>
-		<subpage name="V-Wing">
-			<p class="pageHead"> V-Wing </p>
-			<table id="imageTable" border="0" align="center" ></table>
-			<div id='scrollbarInfo'>
-			<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
-            <div align="center" class="viewport">
-				<div align="center" class="overview">
-				<p> This is a model of the Alpha-3 Nimbus-class V-Wing starfighter from Star Wars Episode 3: Revenge of the Sith. This model was built as a low poly version for distance and background shots, and does not support close ups, which are not really needed. 
-					To view the images full size, click on the image in the viewing part of the gallery. 
-				</p>
-				<p>/*Place holder*/</p>
-				</div>
-			</div>
-			</div>	
-			<script type="text/javascript"> $(document).ready(function(){$('#scrollbarInfo').tinyscrollbar();});</script>
-			<script type="text/javascript"> LoadDataIR("Assets/ImageReels/Vwing/images.xml");</script>
-		</subpage>
-		<subpage name="IFT-X">
-			<p class="pageHead"> IFT-X </p>
-			<table id="imageTable" border="0" align="center" style="background-color: #555555; padding: 10px;"></table>
-			<div id='scrollbarInfo'>
-			<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
-            <div align="center" class="viewport">
-				<div align="center" class="overview">
-				<p> This is a model of the TX-130 Saber class tank (IFT-X) featured in multiple Star Wars games. 
-				The first images are of the clay model, the images that follow are of additions of textured material to the actual model. 
-				To view the images full size, click on the image in the viewing part of the gallery.
-				</p>
-				<p>/*Place holder*/</p>
-				</div>
-			</div>
-			</div>	
-			<script type="text/javascript"> $(document).ready(function(){$('#scrollbarInfo').tinyscrollbar();});</script>
-			<script type="text/javascript"> LoadDataIR("Assets/ImageReels/IFTX/images.xml");</script>
-		</subpage>
-		<subpage name="Macs">
-			<p class="pageHead"> Apple Computers </p>
-			<table id="imageTable" border="0" align="center" style="background-color: #555555; padding: 10px;"></table>
-			<div id='scrollbarInfo'>
-			<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
-            <div align="center" class="viewport">
-				<div align="center" class="overview">
-				<p>	These models are based on the Apple keyboard, iMac, Macpro, and Mac screen. 
-				Their original purpose was to serve as props in a 3D CGI environment for a filming project. 
-				There was also a Mighty Mouse modeled however it did not hold up to high resolution shots and that was not required of it, so it is not featured. 
-				To view the images full size, click in the viewing part of the gallery.
-				</p>
-				<p>/*Place holder*/</p>
-				</div>
-			</div>
-			</div>	
-			<script type="text/javascript"> $(document).ready(function(){$('#scrollbarInfo').tinyscrollbar();});</script>
-			<script type="text/javascript"> LoadDataIR("Assets/ImageReels/applecomps/images.xml");</script>
-		</subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-	</page>
-	<page name="Scenes" title="EntropyDrivenStudios | 3D Scenes" heading="3D Scenes">
-		<p> Scenes here </p>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-	</page>
-	<page name="Projects" title="EntropyDrivenStudios | Projects" heading="Projects">
-		<p> projects here </p>
-		<subpage name="car~">
-			<p> car~ </p>
-		</subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-		<subpage></subpage>
-	</page>
-	<page name="Contact" title="EntropyDrivenStudios | Contact" heading="Contact"></page>
-	<page name="About" title="EntropyDrivenStudios | About" heading="About">
+	<page name="Projects" title="Applied Physics Club | Projects" heading="Projects">
 		<div id='aboutScroll'>
-			<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
-			<div align="center" class="viewport">
-			<div align="center" class="overview">
-				<span class="auhdtxt">Who are we?</span>
-				<p class="intxt">We are I. I am a student studying Computational Astrophysics, who just happens to be interested in 3D design, artwork and animation. And on the computational side, I am interested in graphic programing, and indi game development.</p>
-				<span class="auhdtxt">What do we do?</span>
-				<p class="intxt">I create digital artwork both still and animation, from computer generated and post produced compositions, as well as graphical programs (games). This artwork can be original, subject based, or fan based, and is done in my spare time.</p>
-				<span class="auhdtxt">Why do we do this?</span>
-				<p class="intxt">Why do anything that takes time and effort? For fun of course!</p>
-				<span class="auhdtxt">This is really bugging me, your "Stellar Explosion" is wrong...</span>
-				<p class="intxt">As an Astrophysicist, I realize this. However, you have to admit, it does look pretty cool!</p>
-				<span class="auhdtxt">What programs do you use?</span>
-				<p class="intxt">For post work, and textures, I use Adobe Photoshop. For modeling and rendering, Autodesk 3DS Max. And for programing and compiling Visual Studio, or an Emacs window and g++.</p>
-				<span class="auhdtxt">You said that you do computational stuff, what languages do you know?</span>
-				<p class="intxt">I am fluent in: C/C++, FORTRAN, C-Shell, Bash, IDL, Python, and HTML / CSS (How I wrote this website). I do graphical programing with OpenGL (SDL), and GLSL.</p>
-			</div>
+		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+		<div align="center" class="viewport">
+		<div align="center" class="overview">
+			<p> projects here </p>
+		</div>
+		</div>
+		</div>	
+		<script type="text/javascript"> $(document).ready(function(){$('#aboutScroll').tinyscrollbar();});</script>
+		<subpage name="Coil-gun">
+			<p> Coil-gun</p>
+		</subpage>
+		<subpage name="Interferom">
+			<p> Radio Interferometer</p>
+		</subpage>
+		<subpage></subpage>
+		<subpage></subpage>
+		<subpage></subpage>
+		<subpage></subpage>
+		<subpage></subpage>
+		<subpage></subpage>
+		<subpage></subpage>
+		<subpage></subpage>
+		<subpage></subpage>
+		<subpage></subpage>
+		<subpage></subpage>
+		<subpage></subpage>
+	</page>
+	<page name="Events" title="Applied Physics Club | Events" heading="Club Events">
+		<div id='aboutScroll'>
+		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+		<div align="center" class="viewport">
+		<div align="center" class="overview">
+			<p> events here </p>
+		</div>
+		</div>
+		</div>	
+		<script type="text/javascript"> $(document).ready(function(){$('#aboutScroll').tinyscrollbar();});</script>
+	</page>
+		<page name="About" title="Applied Physics Club | About" heading="About Us">
+		<div id='aboutScroll'>
+		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+		<div align="center" class="viewport">
+		<div align="center" class="overview">
+			<p> About Here </p>
+		</div>
 		</div>
 		</div>	
 		<script type="text/javascript"> $(document).ready(function(){$('#aboutScroll').tinyscrollbar();});</script>
