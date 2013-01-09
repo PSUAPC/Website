@@ -2,7 +2,7 @@
 <content>
 <pages>
 	<page name="Home" title="Applied Physics Club | Home" heading="Applied Physics Club">
-		<p class='hdingHome'> Welcome to The Penn State Applied Physics Club </p>
+		<p class='hdingHome'> Welcome to The Penn State Applied Physics Club Web Page</p>
 		<p class='hdingUpdates'> What's New </p>
 		<div id='scrollbar1'>
 		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
@@ -20,16 +20,26 @@
 		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
 		<div align="center" class="viewport">
 		<div align="center" class="overview">
-			<p> projects here </p>
+			<p class="intxt"> Our goal is to focus on several classic and small experiments throughout the semester as well as
+								work on a few more complicated experiments that require more time.
+			</p>
+			<span class="auhdtxt">Ideas for Future Projects</span>
+			<ul class="intxtl">
+				<li> Vacuum Chamber Paul Trap </li>
+				<li> Cloud Chamber</li>
+				<li> Cyclotron Particle Accelerator </li>
+			</ul>
 		</div>
 		</div>
 		</div>	
 		<script type="text/javascript"> $(document).ready(function(){$('#aboutScroll').tinyscrollbar();});</script>
 		<subpage name="Coil-gun">
-			<p> Coil-gun</p>
+			<p class='hdingHome'> Coil-gun</p>
+			<p class="intxt"> Under Construction </p>
 		</subpage>
 		<subpage name="Interferom">
-			<p> Radio Interferometer</p>
+			<p class='hdingHome'> Radio Interferometer</p>
+			<p class="intxt"> Under Construction </p>
 		</subpage>
 		<subpage></subpage>
 		<subpage></subpage>
@@ -49,7 +59,7 @@
 		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
 		<div align="center" class="viewport">
 		<div align="center" class="overview">
-			<p> events here </p>
+			<p class='hdingHome'> Under Construction</p>
 		</div>
 		</div>
 		</div>	
@@ -60,7 +70,17 @@
 		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
 		<div align="center" class="viewport">
 		<div align="center" class="overview">
-			<p> About Here </p>
+			<span class="auhdtxt">Who We Are</span>
+			<p class="intxt"> The Penn State Applied Physics club is a student organization which has the goal of providing a means for physics students and
+								those interested in physics to preform additional and more intricate physics experiments than what
+								they would typically see in their curriculum.
+			</p>
+			<span class="auhdtxt">Officers</span>
+			<p class="intxtl"> President: Josh Fixelle (jxf5078@psu.edu) </p>
+			<p class="intxtl"> Vice President: Donald Seiwell (djs515@psu.edu) </p>
+			<p class="intxtl"> Secretary: Eric Song (eks5081@psu.edu) </p>
+			<p class="intxtl"> Treasurer: Daniel Stepanov (dhs149@psu.edu) </p>
+			<p class="intxtl"> Webmaster: Josh Fixelle (jxf5078@psu.edu) </p>
 		</div>
 		</div>
 		</div>	
