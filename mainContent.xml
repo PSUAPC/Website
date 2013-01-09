@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <content>
 <pages>
-	<page name="Home" title="EntropyDrivenStudios | Home" heading="Entropy Driven Studios">
-		<p class='hdingHome'> Welcome to Entroy Driven Studios </p>
-		<p class='hdingUpdates'> Updates </p>
+	<page name="Home" title="Applied Physics Club | Home" heading="Applied Physics Club">
+		<p class='hdingHome'> Welcome to The Penn State Applied Physics Club </p>
+		<p class='hdingUpdates'> What's New </p>
 		<div id='scrollbar1'>
 		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
             <div align="center" class="viewport">
@@ -143,9 +143,4 @@
 		<script type="text/javascript"> $(document).ready(function(){$('#aboutScroll').tinyscrollbar();});</script>
 	</page>
 </pages>
-<footerLinks>
-	<footer name="Feedback"></footer>
-	<footer name="Legal"></footer>
-	<footer name="Site map"></footer>
-</footerLinks>
 </content>

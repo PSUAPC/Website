@@ -50,7 +50,7 @@
 }
 .heading
 {
-	color: #32a7bd;
+	color: #a9d5f7;
 	position: relative;
 	left: 70px;
 }
@@ -68,7 +68,7 @@
 }
 .mainContainer
 {
-	background-image:url(Assets/test-supernova.jpg); 
+	background-image:url(Assets/Diffraction-gratingLarge.jpg); 
 	background-position:top; 
 	background-attachment:scroll; 
 	background-repeat:no-repeat;
@@ -216,7 +216,7 @@
 .hdingHome{ font-size: 36px; font-weight: 900; color: #e7e7e7;} 
 .hdingUpdates{ font-size: 30px; font-weight: 900; color: #e7e7e7;text-decoration:underline;} 
 .updateBox{text-align: center;}
-.hmintxt {color:#333333; font-family:Arial, Helvetica, sans-serif; font-size:20px; text-align: center}
+.hmintxt {color:#e7e7e7; font-family:Arial, Helvetica, sans-serif; font-size:20px; text-align: center}
 
 /* CSS classes for the imagereel pages*/
 .pageHead{font-size: 30px; font-weight: 900; color: #e7e7e7; float: top; position: relative; top:-10px}
